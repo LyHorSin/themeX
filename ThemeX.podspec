@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ThemeX"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A SwiftUI theme management library."
   spec.description  = "ThemeX provides app color, font, and dark/light mode management."
   spec.homepage     = "https://github.com/LyHorSin/themeX"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "LyHorSin" => "sinnsoklyhoi@gmail.com" }
 
 //  # Use SSH for private repositories (Replace with HTTPS if public)
-  spec.source       = { :git => "https://github.com/LyHorSin/themeX.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/LyHorSin/themeX.git" }
 
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"

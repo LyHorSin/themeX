@@ -11,7 +11,7 @@ public class ThemeManager: ObservableObject {
     @Published public var isDarkMode: Bool = false
 
     public init() {
-        self.isDarkMode = UITraitCollection.current.userInterfaceStyle == .dark
+        self.isDarkMode = UITraitCollection.current.userInterfaceStyle == .unspecified
     }
     
     public func toggleTheme() {

@@ -8,8 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "LyHorSin" => "sinnsoklyhoi@gmail.com" }
 
-//  # Use SSH for private repositories (Replace with HTTPS if public)
-  spec.source       = { :git => "https://github.com/LyHorSin/themeX.git" }
+  spec.source       = { :git => "https://github.com/LyHorSin/themeX.git", :tag => "1.0.0" }
 
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
